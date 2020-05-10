@@ -196,7 +196,7 @@ namespace CryptoNote
         baseReward = m_genesisBlockReward;
     }
 
-if (nHeight < Params().LAST_POW_BLOCK())
+        if (nHeight < Params().LAST_POW_BLOCK())
         nSubsidy = 7500 * COIN;
     else if (nHeight <= 10000)
         nSubsidy = 50 * COIN;
